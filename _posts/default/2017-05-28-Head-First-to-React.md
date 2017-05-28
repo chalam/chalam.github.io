@@ -6,17 +6,36 @@ tags : [intro, react, JavaScript]
 ---
 {% include JB/setup %}
 
-### What is React?
+## What is React?
 
 React.JS is a JavaScript library for building _awesome_ web UI.
+* Functional programming paradigms with Immutable data and pure functions
+* Declarative (what) vs imperative (how) UI style
+* React maintains a Virtual DOM which diffs with actual browser DOM and render mininmally on state changes
+* JSX - JS extension for HTML. Pre-parsing HTML-like tags to JavaScript
 
-Checkout my [React Scaffold project](https://github.com/chalam/react-scaffhold) with following integration 
+Core Concepts
+* Component are building blocks of an app UI.
+* Two types of data handling __props__ and __state__
+* Use props to pass data b/w Component hierarchy.
+* Use state to maintains data within Component
+* State is data owned by one Component (init and setState)
+* Props define what a Component "is"
+* State defines what a Component "knows"
+* initialize state in constructor
+* Always use __setState__ to modify the state and re-render the App
+* Render fn declare the new UI declaratively for every prop and state changes
+* [Lifecycle hooks](https://facebook.github.io/react/docs/react-component.html) enable imperative code
+* *   Component Mounting -> Updating -> UnMounting
+
+
+Checkout my [React Scaffold project](https://github.com/chalam/react-scaffhold) with following integration
 
 Overview
 - [Intro to React](https://github.com/ericvicenti/intro-to-react)
 - [React Component search @ JS Coach ](https://js.coach/react)
 
-#### Implemented
+### Implemented
 
 Base
 - [Create React App](https://github.com/facebookincubator/create-react-app)
@@ -30,7 +49,7 @@ UI/UX
 Routing
 - [React Router](https://reacttraining.com/react-router/)
 
-##### TBD
+### TBD
 Next-Gen
 - [Fiber - React 2.0](https://github.com/acdlite/react-fiber-architecture)
 

@@ -35,7 +35,7 @@ Overview
 - [Intro to React](https://github.com/ericvicenti/intro-to-react)
 - [React Component search @ JS Coach ](https://js.coach/react)
 
-### Implemented
+### Integrated in my scaffold
 
 Base
 - [Create React App](https://github.com/facebookincubator/create-react-app)
@@ -49,7 +49,8 @@ UI/UX
 Routing
 - [React Router](https://reacttraining.com/react-router/)
 
-### TBD
+### Future Roadmap
+
 Next-Gen
 - [Fiber - React 2.0](https://github.com/acdlite/react-fiber-architecture)
 
